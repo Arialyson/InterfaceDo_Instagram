@@ -1,46 +1,43 @@
-## 📸 Clone da Interface do Instagram (Feed e Perfil)
+## 📸 Clone da Interface de Login do Instagram
 
-Este repositório contém um projeto de **recriação (clone) da interface de usuário móvel do Instagram**, com foco especial na tela de **Feed** e na página de **Perfil**. O objetivo é demonstrar proficiência em design responsivo e na replicação fiel de interfaces de aplicações populares utilizando tecnologias web Front-end.
+Este repositório contém o código de um projeto focado na recriação fiel da **Interface de Login (Sign In)** do aplicativo móvel do Instagram. O objetivo principal é demonstrar proficiência em design **responsivo** e na replicação precisa da estética e usabilidade de uma tela de autenticação conhecida.
 
 -----
 
 ### ✨ Tecnologias Utilizadas
 
-Este projeto foi construído utilizando as seguintes tecnologias:
+O projeto utiliza as tecnologias web padrão para replicar o *look and feel* do aplicativo:
 
-  * **HTML5:** Para a estrutura semântica de componentes como o cabeçalho (*stories*, barra de navegação), posts e a barra de menu inferior.
-  * **CSS3 (Flexbox/Grid):** Para criar o layout responsivo, o alinhamento de ícones e a grade de fotos do perfil, replicando o espaçamento e a tipografia do Instagram.
-  * **JavaScript (Opcional):** Usado para simular funcionalidades interativas, como o *like* de um post, a troca de abas no perfil ou o *scroll* infinito.
-  * **[Nome do Framework/Biblioteca, se aplicável - Ex: React Native, Flutter, se o foco for mobile]:** Para a arquitetura de componentes.
+  * **HTML5:** Estrutura semântica do formulário de login e dos elementos de texto e botão.
+  * **CSS3:** Estilização completa, incluindo o **gradiente de fundo (se aplicável)**, a tipografia da fonte, o estilo dos campos de entrada, a cor e o formato do botão "Entrar" e o layout responsivo.
+  * **JavaScript (Opcional):** Para adicionar interatividade, como simulação de foco nos campos ou uma validação básica para exibir mensagens de erro/aviso.
 
 -----
 
-### 🚀 Funcionalidades Recriadas
+### 🚀 Funcionalidades da Interface Recriadas
 
-O projeto replica os elementos chave da interface:
-
-| Seção | Elementos Replicados |
-| :--- | :--- |
-| **Feed Principal** | Carrossel de Stories, Barra de Navegação Superior (Ícones), Layout de Post (Foto, Ícones de Ação, Contagem de Likes, Legendas). |
-| **Página de Perfil** | Foto de Perfil, Estatísticas (Posts, Seguidores, Seguindo), Bio, Destaques, Alternância de Abas (Posts, Reels, Tags). |
-| **Geral** | Barra de Menu Inferior Fixa, Tipografia e Paleta de Cores (incluindo o gradiente da borda das stories não visualizadas). |
+  * **Fidelidade Visual:** Reprodução da paleta de cores e da tipografia utilizada pelo Instagram.
+  * **Campos de Entrada:** Recriação dos campos de usuário/e-mail e senha com o estilo visual exato do aplicativo.
+  * **Botão de Login:** Implementação da aparência e do estado (desabilitado/habilitado) do botão "Entrar".
+  * **Links Auxiliares:** Estilização dos links "Esqueceu a senha?" e "Cadastre-se".
+  * **Design Responsivo:** A interface se adapta para preencher a tela, mantendo o foco no formulário, simulando o comportamento de um aplicativo móvel.
 
 -----
 
 ### 🛠️ Como Visualizar o Projeto Localmente
 
-Siga estes passos para rodar o clone da interface em sua máquina:
+Para rodar o clone em sua máquina:
 
 1.  **Clone o repositório:**
     ```bash
     git clone https://github.com/seu-usuario/nome-do-repositorio.git
     ```
-2.  **Acesse o diretório do projeto:**
+2.  **Acesse o diretório:**
     ```bash
     cd nome-do-repositorio
     ```
 3.  **Abra o arquivo principal:**
-    Basta abrir o arquivo `index.html` (ou o arquivo de *build* principal do seu framework) em seu navegador, preferencialmente usando a ferramenta de **Inspeção de Elementos (modo mobile)** do navegador para visualização ideal.
+    Abra o `index.html` em seu navegador. **Recomenda-se usar o modo de inspeção/visualização móvel do navegador** (F12) para ver a interface no contexto para o qual foi projetada.
 
 -----
 
@@ -65,4 +62,4 @@ Este projeto é disponibilizado para fins educacionais e de portfólio. Não é 
 
 -----
 
-Posso ajudar a criar um README para outro tipo de projeto?
+Você precisa de um README para um projeto de interface de login de outra plataforma, como Spotify ou Google?
